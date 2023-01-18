@@ -1,0 +1,9 @@
+@prefix owlunit: <https://w3id.org/OWLunit/ontology/> . 
+@prefix mp: <https://w3id.org/polifonia/ontology/musical-performance/> .
+@prefix td: <https://raw.githubusercontent.com/delfimpandiani/XDTestingTool/main/> .
+@prefix tc: <https://raw.githubusercontent.com/delfimpandiani/XDTestingTool/main/> .
+
+
+tc:ep1.ttl a owlunit:ErrorProvocation ; 
+      owlunit:hasInputData td:DatasetEP.ttl  ; 
+      owlunit:testsOntology mp: . 
