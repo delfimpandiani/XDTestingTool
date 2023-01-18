@@ -23,7 +23,7 @@
           "expectedResults": "",
           "expectedResultsFileName": "MusicalPerformance/Fragment1/expectedResults/ER.json",
           "id": "CQ001",
-          "check" = 0
+          "check": 0
         }
       ]
     }
