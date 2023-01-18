@@ -1,0 +1,14 @@
+@prefix owlunit: <https://w3id.org/OWLunit/ontology/> . 
+@prefix mp: <https://w3id.org/polifonia/ontology/musical-performance/> .
+@prefix td: <https://raw.githubusercontent.com/delfimpandiani/XDTestingTool/main/> .
+@prefix tc: <https://raw.githubusercontent.com/delfimpandiani/XDTestingTool/main/> .
+
+tc:iv1.ttl a owlunit:InferenceVerification ; 
+      owlunit:hasInputData td:DatasetIV.ttl ; 
+      owlunit:hasSPARQLUnitTest "PREFIX mp: <https://w3id.org/polifonia/ontology/musical-performance/> 
+PREFIX td: <https://raw.githubusercontent.com/polifonia-project/musical-performance-ontology/main/test/inference/toy-dataset/ > 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+ASK { td:Session01 a mp:Session }" ; 
+      owlunit:hasReasoner owlunit:HermiT ; 
+      owlunit:hasExpectedResult True ; 
+      owlunit:testsOntology mp: . 
