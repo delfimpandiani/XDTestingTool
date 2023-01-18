@@ -1,0 +1,5 @@
+@prefix td: <https://raw.githubusercontent.com/polifonia-project/musical-performance/main/test/inference/toy-dataset/> .
+@prefix mp: <https://w3id.org/polifonia/ontology/musical-performance/> .
+
+td:Session01 a mp:Session .
+td:Session01 a mp:MusicalPerformance .
