@@ -22,7 +22,8 @@
           "dataFileName": "MusicalPerformance/Fragment1/datasets/dataset.ttl",
           "expectedResults": "",
           "expectedResultsFileName": "MusicalPerformance/Fragment1/expectedResults/ER.json",
-          "id": "CQ001"
+          "id": "CQ001",
+          check = 0
         }
       ]
     }
